@@ -1,0 +1,90 @@
+.sec-plans {
+    margin-bottom: 20rem;
+}
+
+.plan-card {
+    background-color: var(--color-indigo100);
+    color: var(--color-indigo500);
+    width: 85%;
+
+    border-radius: 11px;
+    padding: 2rem 4rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    box-shadow: 4px 4px 16px #e0e7ff;
+    transition: all 0.3s;
+
+    align-self: center;
+}
+
+.plan-card:hover {
+    transform: translateY(-5px);
+}
+
+.featured {
+    position: relative;
+    overflow: hidden;
+
+    background-color: var(--color-indigo500);
+    color: var(--color-white);
+}
+
+.ribbon {
+    position: absolute;
+
+    background-color: var(--color-white);
+    color: var(--color-indigo500);
+    font-size: 1.4rem;
+
+    padding: 1rem 10rem;
+
+    transform: rotate(45deg);
+    top: 1.4rem;
+    right: -10.7rem;
+}
+
+.price-icon {
+    display: inline-block;
+    width: 3rem;
+}
+
+.price {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+}
+
+.price-support-tag {
+    font-size: 1.2rem;
+}
+
+.benefits-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.tick {
+    width: 2rem;
+}
+
+.benefit-obtained {
+    font-size: 1.8rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.btn-featured {
+    background-color: var(--color-white);
+    color: var(--color-indigo500);
+}
+
+.btn-featured:hover {
+    color: var(--color-white);
+}

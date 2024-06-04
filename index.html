@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./styles/utils.css" />
+        <title>DestiGo</title>
+    </head>
+    <body id="main-body">
+        <!-- <div id="cursor"></div> -->
+
+        <header class="sec-header">
+            <nav class="main-nav container">
+                <div class="nav--left">
+                    <div class="logo">
+                        <a href="#"
+                            ><img src="./assets/logo.png" alt="Desti-go Logo"
+                        /></a>
+                    </div>
+                </div>
+                <div class="nav--right">
+                    <ul class="nav-list">
+                        <li class="nav-list-item">
+                            <a href="#features" class="nav-link btn btn-nav"
+                                >Features</a
+                            >
+                        </li>
+                        <li class="nav-list-item">
+                            <a href="#plans" class="nav-link btn btn-nav"
+                                >Plans</a
+                            >
+                        </li>
+                        <li class="nav-list-item">
+                            <a href="#contact" class="nav-link btn btn-nav"
+                                >Contact</a
+                            >
+                        </li>
+                        <li class="nav-list-item">
+                            <a href="#plan-now" class="nav-link btn btn-main"
+                                >Travel Now!</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="hero container grid grid--2col">
+                <div class="hero-content">
+                    <h1 class="hero-heading">
+                        "Exploring the World,<br />
+                        One Journey at a Time."
+                    </h1>
+                    <p class="hero-description">
+                        Escape the ordinary and immerse yourself in
+                        extraordinary experiences. Discover serenity, adventure,
+                        and cherished moments on your dream vacation.
+                    </p>
+                    <div class="btn-container">
+                        <button class="btn btn-hero">Plan Now</button>
+                        <button class="btn btn-support">Learn More</button>
+                    </div>
+                </div>
+                <div class="hero-content"></div>
+            </div>
+        </header>
+
+        <main>
+            <section class="sec-features" id="features">
+                <div class="container">
+                    <p class="secondary-heading">
+                        Features that make us the best!
+                    </p>
+
+                    <div class="feature-cards grid grid--4col">
+                        <div class="feature card--adaptive">
+                            <ion-icon
+                                class="features-icon"
+                                name="bed-outline"
+                            ></ion-icon>
+                            <p class="feature-description">
+                                The rooms are first inspected by our company
+                                before being inlcuded in the list which makes
+                                sure that the rooms are in good condition.
+                            </p>
+                        </div>
+
+                        <div class="feature card--adaptive">
+                            <ion-icon
+                                class="features-icon"
+                                name="car-sport-outline"
+                            ></ion-icon>
+                            <p class="feature-description">
+                                Private vehicles are hired out for you to make
+                                sure that you have a comfortable transport to
+                                move around if you choose to do so.
+                            </p>
+                        </div>
+
+                        <div class="feature card--adaptive">
+                            <ion-icon
+                                class="features-icon"
+                                name="airplane-outline"
+                            ></ion-icon>
+                            <p class="feature-description">
+                                We have partnered with the best airlines which
+                                travel to all the exotic locations and provide
+                                you with the best experience.
+                            </p>
+                        </div>
+
+                        <div class="feature card--adaptive">
+                            <ion-icon
+                                class="features-icon"
+                                name="earth-outline"
+                            ></ion-icon>
+                            <p class="feature-description">
+                                Our company has partnered with the best hotels
+                                all over the world to provide you with the best
+                                experience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sec-plans" id="plans">
+                <div class="container">
+                    <p class="secondary-heading">
+                        Choose the plan that's right for you
+                    </p>
+                    <div class="grid grid--3col">
+                        <div class="plan-card">
+                            <div class="price">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1.5"
+                                    stroke="currentColor"
+                                    class="price-icon"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M15 8.25H9m6 3H9m3 6l-3-3h1.5a3 3 0 100-6M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                                    />
+                                </svg>
+                                7,999
+                                <span class="price-support-tag"
+                                    >&plus; taxes</span
+                                >
+                            </div>
+                            <div class="benefits">
+                                <ul class="benefits-list">
+                                    <li class="benefit-obtained">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke-width="1.5"
+                                            stroke="currentColor"
+                                            class="tick"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                                            />
+                                        </svg>
+                                        Free Breakfast
+                                    </li>
+                                    <li class="benefit-obtained">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke-width="1.5"
+                                            stroke="currentColor"
+                                            class="tick"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                                            />
+                                        </svg>
+                                        Free Wi-fi
+                                    </li>
+                                    <li class="benefit-obtained">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke-width="1.5"
+                                            stroke="currentColor"
+                                            class="tick"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                                            />
+                                        </svg>
+                                        Refundable
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn">Plan Trip</button>
+                        </div>
+
+                        <div class="plan-card featured">
+                            <p class="ribbon">Best Value</p>
+                            <div class="price">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1.5"
+                                    stroke="currentColor"
+                                    class="price-icon"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M15 8.25H9m6 3H9m3 6l-3-3h1.5a3 3 0 100-6M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                                    />
+                                </svg>
+                                29,999
+                                <span class="price-support-tag"
+                                    >(taxes included)</span
+                                >
+                            </div>
+                            <div class="benefits">
+                                <ul class="benefits-list">
+                                    <li class="benefit-obtained">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke-width="1.5"
+                                            stroke="currentColor"
+                                            class="tick"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                                            />
+                                        </svg>
+                                        Private Vehicle
+                                    </li>
+                                    <li class="benefit-obtained">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke-width="1.5"
+                                            stroke="currentColor"
+                                            class="tick"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                                            />
+                                        </svg>
+                                        Room Upgrade
+                                    </li>
+                                    <li class="benefit-obtained">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke-width="1.5"
+                                            stroke="currentColor"
+                                            class="tick"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                                            />
+                                        </svg>
+                                        Refundable
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn btn-featured">Snatch Buy</button>
+                        </div>
+
+                        <div class="plan-card">
+                            <div class="price">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1.5"
+                                    stroke="currentColor"
+                                    class="price-icon"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M15 8.25H9m6 3H9m3 6l-3-3h1.5a3 3 0 100-6M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                                    />
+                                </svg>
+                                44,999
+                                <span class="price-support-tag"
+                                    >&plus; taxes</span
+                                >
+                            </div>
+                            <div class="benefits">
+                                <ul class="benefits-list">
+                                    <li class="benefit-obtained">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke-width="1.5"
+                                            stroke="currentColor"
+                                            class="tick"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                                            />
+                                        </svg>
+                                        Complimentary Meals
+                                    </li>
+                                    <li class="benefit-obtained">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke-width="1.5"
+                                            stroke="currentColor"
+                                            class="tick"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                                            />
+                                        </svg>
+                                        Personal Driver
+                                    </li>
+                                    <li class="benefit-obtained">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke-width="1.5"
+                                            stroke="currentColor"
+                                            class="tick"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                                            />
+                                        </svg>
+                                        Private Chef
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn">Start Trip</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sec-form" id="plan-now">
+                <p class="container secondary-heading">Plan your trip now!</p>
+                <div class="container bgclr grid grid--2col-form">
+                    <div class="form-btn-container">
+                        <form class="form grid grid--3col">
+                            <div class="name">
+                                <label for="name">Name: </label>
+                                <input
+                                    type="text"
+                                    name="name"
+                                    id="name"
+                                    required
+                                />
+                            </div>
+
+                            <div class="phonenumber">
+                                <label for="number">Phone: </label>
+                                <input
+                                    type="tel"
+                                    name="number"
+                                    id="number"
+                                    required
+                                />
+                            </div>
+
+                            <div class="plan-choice-list">
+                                <label for="plan-choice">Choose Plan: </label>
+                                <select
+                                    name="plan-choice"
+                                    id="plan-choice"
+                                    required
+                                >
+                                    <option value="None">Select Plan</option>
+                                    <option value="Starter">
+                                        Plan A - 7,999 + tax
+                                    </option>
+                                    <option value="Best-Buy">
+                                        Pan B - 29,999 (Best Buy)
+                                    </option>
+                                    <option value="Luxury-travel">
+                                        Plan C - 44,999 + tax
+                                    </option>
+                                </select>
+                            </div>
+                        </form>
+                        <button class="btn submit-cta">Start Planning</button>
+                    </div>
+                    <img
+                        class="form-img"
+                        src="https://images.unsplash.com/photo-1611043714658-af3e56bc5299?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Photo of Beach from the sky"
+                    />
+                </div>
+            </section>
+        </main>
+
+        <footer class="sec-footer" id="contact">
+            <div class="container">
+                <p class="secondary-heading">Find Out More</p>
+                <div class="footer-content grid grid--3col">
+                    <div class="contacts">
+                        <address class="address">
+                            <ion-icon
+                                class="margin-right--xs"
+                                name="business-outline"
+                            ></ion-icon
+                            >Building 12,<br />
+                            Manyata Tech Park, <br />Hebbal, <br />Bengaluru -
+                            024
+                        </address>
+                        <div class="phone">
+                            <ion-icon name="call-outline"></ion-icon>+91
+                            1234567890
+                        </div>
+                        <div class="email">
+                            <a class="email" href="mailto:@gmail.com"
+                                ><ion-icon name="mail-outline"></ion-icon
+                                >destigo@gmail.com</a
+                            >
+                        </div>
+                    </div>
+                    <ul class="social-icons">
+                        <li class="link-list">
+                            <ion-icon
+                                class="social-logo"
+                                name="logo-facebook"
+                            ></ion-icon>
+                            <a href="#"> Desti-go </a>
+                        </li>
+                        <li class="link-list">
+                            <ion-icon
+                                class="social-logo"
+                                name="logo-instagram"
+                            ></ion-icon>
+                            <a href="#">@desti_go </a>
+                        </li>
+                        <li class="link-list">
+                            <ion-icon
+                                class="social-logo"
+                                name="logo-twitter"
+                            ></ion-icon>
+                            <a href="#">@desti </a>
+                        </li>
+                    </ul>
+
+                    <ul class="resources">
+                        <li class="resource-list">
+                            <a href="#" class="resource-link"
+                                ><ion-icon
+                                    class="resource-icon"
+                                    name="briefcase-outline"
+                                ></ion-icon
+                                >Work With Us</a
+                            >
+                        </li>
+                        <li class="resource-list">
+                            <a href="#" class="resource-link"
+                                ><ion-icon
+                                    class="resource-icon"
+                                    name="color-wand-outline"
+                                ></ion-icon
+                                >Get Advice</a
+                            >
+                        </li>
+                        <li class="resource-list">
+                            <a href="#" class="resource-link"
+                                ><ion-icon
+                                    class="resource-icon"
+                                    name="card-outline"
+                                ></ion-icon
+                                >Request Refund</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>

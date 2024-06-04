@@ -1,0 +1,52 @@
+.sec-features {
+    height: 20rem;
+
+    padding-top: 5rem;
+    margin-bottom: 30rem;
+}
+
+.card-image-container {
+    position: relative;
+    display: none;
+    height: 30rem;
+    width: 30rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.card-image {
+    position: absolute;
+    height: 20rem;
+    width: 30rem;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.card--adaptive {
+    padding: 2rem 4rem;
+    border-radius: 11px;
+    box-shadow: 2px 3px 4px #6365f16e, -1px -1px 4px #6365f16e;
+    transition: all 0.3s;
+}
+
+.card--adaptive:hover {
+    transform: translateY(-5px);
+    
+}
+
+.features-icon {
+    width: 3rem;
+    height: 3rem;
+
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+
+    color: var(--color-indigo700);
+    background-color: var(--color-indigo100);
+}
+
+.feature-description {
+    font-size: 1.4rem;
+}

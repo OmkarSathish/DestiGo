@@ -1,0 +1,63 @@
+.sec-form {
+    margin-bottom: 15rem;
+}
+
+.sec-form .container {
+    overflow: hidden;
+
+    border-radius: 11px;
+}
+
+.bgclr {
+    background-color: var(--color-indigo700);
+}
+
+.form-btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.8rem;
+    align-items: center;
+}
+
+.form {
+    padding: 5rem 3rem;
+    border-radius: 11px;
+}
+
+.grid--2col {
+    column-gap: 1.2rem;
+}
+
+.name, .phonenumber, .plan-choice-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+form label {
+    font-size: 1.8rem;
+    color: var(--color-white);
+}
+
+form input, form select {
+    padding: 1rem 1.5rem;
+    border-radius: 11px;
+    border: none;
+}
+
+.form-img {
+    width: 120%;
+    height: 30rem;
+    object-fit: contain;
+    object-position: center;
+}
+
+.submit-cta {
+    color: var(--color-indigo900);
+    background-color: var(--color-white);
+}
+
+.submit-cta:hover {
+    color: var(--color-indigo900);
+    background-color: var(--color-indigo200);
+}
